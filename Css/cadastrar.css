@@ -1,0 +1,63 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.93);
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  width: 500px;
+  height: 700px;
+  background-color: #202020;
+  padding-top: 50px;
+}
+
+#titulo {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  font-family: "Righteous" "Times New Roman", Times, serif;
+  font-size: 12px;
+  line-height: 63px;
+  color: white;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  text-align: center;
+}
+
+.link {
+  position: absolute;
+  left: -90px;
+  height: 20px;
+  width: 440px;
+  padding: 17px 30px 20px 30px;
+  font-size: 16px;
+  text-align: right;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  top: 650px;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  .container {
+    text-align: center;
+    margin: 0;
+    height: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
