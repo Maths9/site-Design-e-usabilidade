@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #fff;
+  background: rgb(0, 0, 0);
 }
 
 ul {
@@ -16,7 +16,6 @@ ul {
   height: 700px;
   align-content: center;
   top: 200px;
-  background-color: #202020;
   padding-top: 50px;
 }
 
@@ -44,9 +43,8 @@ nav {
   display: flex;
   flex-direction: row;
   right: 150px;
-  font-size: 8.75px;
+  font-size: 10.5px;
   margin-left: 480;
-  background-color: #0078f2;
   padding: 1px;
 }
 
@@ -82,6 +80,8 @@ li {
 h1 {
   margin: 0;
   padding: 0px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
 }
 
 button {
@@ -121,9 +121,7 @@ button:focus ~ ul {
     padding: 0;
     align-items: flex-start;
   }
-  h1 {
-    margin: 10px;
-  }
+
   button {
     display: flex;
   }
@@ -131,4 +129,25 @@ button:focus ~ ul {
   ul {
     width: 100%;
   }
+}
+.img {
+  display: flex;
+  position: absolute;
+  width: 1150px;
+  height: 650px;
+  left: 0px;
+  top: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img2 {
+  display: flex;
+  position: absolute;
+  width: 1150px;
+  height: 650px;
+  left: 0px;
+  top: 800px;
+  border-radius: 10px;
+  cursor: pointer;
 }

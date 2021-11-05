@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #fff;
+  background: rgb(18, 18, 18);
 }
 
 ul {
@@ -9,27 +9,15 @@ ul {
   overflow: hidden;
   transition: all 0.5s;
 }
-.container {
-  position: absolute;
-  display: flex;
-  width: 1170px;
-  height: 700px;
-  align-content: center;
-  left: 350px;
-  top: 200px;
-  background-color: #fff;
-  padding-top: 50px;
-}
 
 .logo {
   justify-content: start;
   padding: 0 0px;
-  align-items: center;
 }
 
 nav {
   background-color: #2a2a2a;
-  padding: 0 11px;
+  padding: 0 10px;
   justify-content: flex-start;
   align-items: center;
 }
@@ -45,32 +33,26 @@ nav {
   display: flex;
   flex-direction: row;
   right: 150px;
-  font-size: 8.75px;
+  font-size: 10.5px;
   margin-left: 480;
-  background-color: #0078f2;
   padding: 1px;
 }
-.listalateral {
-  display: flex;
-  position: absolute;
-  top: 100px;
-  list-style: none;
-  font-size: 40px;
-  right: 350px;
-  justify-items: center;
-  align-items: center;
-  color: black;
-}
+
 h3 {
   color: #fff;
   border-inline-end-width: 50px;
 }
 
+h1,
 p,
 a {
-  color: #ffffffe5;
+  color: #fff;
   list-style: none;
   text-decoration: none;
+}
+
+h3 {
+  top: 50px;
 }
 
 nav,
@@ -86,18 +68,10 @@ li {
 }
 
 h1 {
-  position: fixed;
-  font-size: 50px;
-  top: 70px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-h2 {
   margin: 0;
   padding: 0px;
-  color: #2a2a2a;
-  font-style: oblique;
-  font-family: "Times New Roman", Times, serif;
+  top: 0px;
+  position: relative;
 }
 
 button {
@@ -147,4 +121,59 @@ button:focus ~ ul {
   ul {
     width: 100%;
   }
+}
+
+.img {
+  display: flex;
+  position: absolute;
+  width: 1150px;
+  height: 650px;
+  left: 240px;
+  top: 155px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#divBusca {
+  background-color: #202020;
+  border-radius: 15px;
+  top: 90px;
+  position: absolute;
+  right: 480px;
+  justify-content: center;
+}
+
+#txtBusca {
+  position: absolute;
+  background-color: #202020;
+  padding-left: 5px;
+  font-size: 14px;
+  border: none;
+  height: 41px;
+  width: 230px;
+  color: #fff;
+  justify-content: center;
+}
+
+#btnBusca {
+  position: absolute;
+  left: 200px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.listalateral {
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  font-size: 18px;
+  right: 200px;
+  justify-items: center;
+  color: #fff;
+  font-size: 50px;
+}
+.container {
+  position: absolute;
+  font-size: 50px;
+  top: 300px;
 }

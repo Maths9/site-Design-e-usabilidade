@@ -24,12 +24,14 @@ nav {
 
 .baixar {
   align-items: center;
+  position: absolute;
   display: flex;
   flex-direction: row;
-  right: 150px;
-  font-size: 8.75px;
+  top: 25px;
+  right: 1250px;
+  font-size: 10.5px;
   margin-left: 480;
-  background-color: #0078f2;
+
   padding: 1px;
 }
 
@@ -114,4 +116,8 @@ button:focus ~ ul {
   ul {
     width: 100%;
   }
+}
+
+.link {
+  font-size: 70px;
 }
